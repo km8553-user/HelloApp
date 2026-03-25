@@ -1,0 +1,21 @@
+Index: src/main/java/org/example/HelloApp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\nclass HelloApp {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        String name = (args.length > 0) ? args[0] : \"World\";\r\n\r\n        System.out.println(\"Hello, \" + name + \"!\");\r\n\r\n    }\r\n}
+===================================================================
+diff --git a/src/main/java/org/example/HelloApp.java b/src/main/java/org/example/HelloApp.java
+--- a/src/main/java/org/example/HelloApp.java	(revision 1720b5d60b2b235f1762589d9bb5f35dbcedd7ff)
++++ b/src/main/java/org/example/HelloApp.java	(date 1774408666948)
+@@ -3,10 +3,7 @@
+ class HelloApp {
+ 
+     public static void main(String[] args) {
+-
+-        String name = (args.length > 0) ? args[0] : "World";
+-
+-        System.out.println("Hello, " + name + "!");
++        System.out.println("Hello World");
+ 
+     }
+ }
+\ No newline at end of file
